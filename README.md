@@ -19,5 +19,5 @@ python test.py
 train the network using 256x256-pixel crops drawn from the 5k images in the COCO 2017 validation set for 120 epoch.  We furthermore randomize the noise standard deviation σ= [0,50] separately for each training example.
 # Results on Cryo-EM data
 ![image](https://github.com/ZhenyuTan/Noise2Noise-for-Cryo-EM-image-denoising/blob/master/imgs/results_cryo.png)
-We train the network using 640*640 crops drawn from the 250 images for 500 epoch for each protein sample dataset. 
-we tested on 2 protein sample dataset,one is aldolase, the other is apoferritin
+
+We train the network using 640*640 crops drawn from the 250 images for 500 epoch for each protein sample dataset. we tested on 2 protein sample dataset,one is aldolase, the other is apoferritin
